@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>青龙云印集成打印示例 - TSINGLOONG·青龙</title>
+    <link rel="stylesheet" href="/css/crab.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    <meta charset="utf-8">
+    
+  </head>
+  <body>
+    <div id="container">
+      <div id="header">
+        <div id="site-logo">
+          
+            <img src="/img/logo.png">
+          
+        </div>
+	      <div id="site-title"><a href="/">TSINGLOONG·青龙</a></div>
+	      <div id="site-slogan">相信我们可以做的更好！</div>
+      </div>
+            <nav>
+        <ul class="first">
+          
+          
+          <li><a href="/">主页 </a>
+            
+            </li>
+          
+          <li><a href="/docs/">文档  &raquo;</a>
+            
+              <ul class="second">
+              
+                <li><a href="/docs/cloud-print-manual/">青龙云印用户手册</a>
+                  
+                </li>
+              
+              </ul>
+            
+            </li>
+          
+          <li><a href="/contact/">联系我们 </a>
+            
+            </li>
+          
+        </ul>
+      </nav>
+
+      <div id="content">
+        <div id="article">
+	        <h1>青龙云印集成打印示例</h1>
+
+<div id="summary">
+  <p><strong>提示：</strong> 测试前请 <a href="/download/CloudPrintSetup.exe">下载</a> 安装青龙云印程序.</p>
+<ul>
+<li><a href="#printHtml">打印HTML</a></li>
+<li><a href="#printPdf">打印PDF</a></li>
+<li><a href="#printText">打印文本</a></li>
+</ul>
+
+</div>
+
+<fieldset style="width: 100%;">
+    <legend>&nbsp;打印HTML&nbsp;</legend>
+    <div id="printHtml">
+        <table style="width: 100%;">
+            <tr>
+                <th>PC</th>
+                <th>移动</th>
+                <th>标题(颜色)</th>
+                <th>链接</th>
+            </tr>
+            <tr>
+                <td>√</td>
+                <td>√</td>
+                <td>Vue列表渲染-变异方法 - 写代码的兔子</td>
+                <td style="text-align: justify;">https://tsingloong.com/p/8521111111111<br/>1111111111111111111111778.html</td>
+            </tr>
+            <tr>
+                <td>√</td>
+                <td></td>
+                <td>javascript痛点之三闭包 - 董小新</td>
+                <td>https://tsingloong.com/p/6985178.html</td>
+            </tr>
+            <tr>
+                <td>√</td>
+                <td>√</td>
+                <td>javascript痛点之二作用域链</td>
+                <td>https://tsingloong.com/p/6958901.html</td>
+            </tr>
+            <tr>
+                <td>√</td>
+                <td>√</td>
+                <td>Vue的计算属性缓存和method的区别在哪？</td>
+                <td>https://tsingloong.com/p/8505201.html</td>
+            </tr>
+        </table>
+    </div>
+    <br/>
+    <div>
+        <button id="printHtml" onclick="printHtml();">打印HTML</button>
+    </div>
+</fieldset>
+<br/>
+<fieldset style="width: 100%;">
+    <legend>&nbsp;打印PDF&nbsp;</legend>
+    <div>
+        <input style="width: 100%;" type="text" id="pdfUrl" placeholder="PDF网址，会从这个网址下载PDF后打印"/>
+    </div>
+    <br/>
+    <div>
+        <button id="printPdf" onclick="printPdf();">打印PDF</button>
+    </div>
+</fieldset>
+<br/>
+<fieldset style="width: 100%;">
+    <legend>&nbsp;打印文本&nbsp;</legend>
+    <div>
+        <textarea style="width: 100%;" id="textarea" rows="5" placeholder="在这里输入测试数据，可以是多行"></textarea>
+    </div>
+    <br/>
+    <div>
+        <button id="printText" onclick="printText();">打印文本</button>
+    </div>
+</fieldset>
+<br/>
+<script type="text/javascript" src="/js/html2canvas.min.js"></script>
+<script type="text/javascript" src="/js/CloudPrint.js"></script>
+<script type="text/javascript">
+    function printHtml() {
+        html2canvas(document.querySelector("#printHtml")).then(canvas => {
+            CloudPrint.print({
+            paperSize: "A4",
+            copies: 1,
+            fileType: "IMAGE",
+            contentType: "BASE64",
+            content: canvas.toDataURL().substring(22)
+            });
+        });
+    }
+    function printPdf() {
+        CloudPrint.print({
+            paperSize: "A4",
+            copies: 1,
+            fileType: "PDF",
+            contentType: "URL",
+            content: document.querySelector("#pdfUrl").value
+        });
+    }
+    function printText() {
+        CloudPrint.print({
+            paperSize: "A4",
+            copies: 1,
+            fileType: "TEXT",
+            contentType: "PLAIN",
+            content: document.querySelector("#textarea").value
+        });
+    }
+</script>
+
+        </div>
+      </div>
+      <div id="footer">
+        Copyright &copy; 2020 TSINGLOONG·青龙
+      </div>
+    </div>
+  </body>
+</html>
+

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>主页 on TSINGLOONG·青龙</title>
+    <link>/</link>
+    <description>Recent content in 主页 on TSINGLOONG·青龙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 05 Feb 2019 07:51:49 +0100</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>你好，世界！</title>
+      <link>/blogs/hello-world/</link>
+      <pubDate>Sat, 26 Sep 2020 21:30:00 +0100</pubDate>
+      
+      <guid>/blogs/hello-world/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>青龙云印</title>
+      <link>/products/cloud-print/</link>
+      <pubDate>Sat, 26 Sep 2020 11:14:35 +0100</pubDate>
+      
+      <guid>/products/cloud-print/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>青龙云印集成打印示例</title>
+      <link>/samples/cloud-print-samples/</link>
+      <pubDate>Sat, 26 Sep 2020 11:14:35 +0100</pubDate>
+      
+      <guid>/samples/cloud-print-samples/</guid>
+      <description>提示： 测试前请 下载 安装青龙云印程序.
+ 打印HTML 打印PDF 打印文本   &amp;nbsp;打印HTML&amp;nbsp;PC移动标题(颜色)链接√√Vue列表渲染-变异方法 - 写代码的兔子https://tsingloong.com/p/85211111111111111111111111111111111778.html√javascript痛点之三闭包 - 董小新https://tsingloong.com/p/6985178.html√√javascript痛点之二作用域链https://tsingloong.com/p/6958901.html√√Vue的计算属性缓存和method的区别在哪？https://tsingloong.com/p/8505201.html打印HTML&amp;nbsp;打印PDF&amp;nbsp;打印PDF&amp;nbsp;打印文本&amp;nbsp;打印文本function printHtml() {html2canvas(document.</description>
+    </item>
+    
+    <item>
+      <title>联系我们</title>
+      <link>/contact/</link>
+      <pubDate>Sat, 26 Sep 2020 10:59:56 +0100</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>提示： 邮件是目前唯一的联系方式，有任何问题都请通过邮件联系我们，我们会尽快回复您。   e-mail: tl@tsingloong.com  </description>
+    </item>
+    
+    <item>
+      <title>青龙云印用户手册</title>
+      <link>/docs/cloud-print-manual/</link>
+      <pubDate>Sat, 26 Sep 2020 07:51:49 +0100</pubDate>
+      
+      <guid>/docs/cloud-print-manual/</guid>
+      <description>参数列表 示例代码 测试网页   参数列表    参数名 取值范围 适用类型     paperSize A3, A4 所有   copies 1 ~ 100 所有    示例代码 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;zh-CN&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Cloud Print Test Page&amp;lt;/title&amp;gt; &amp;lt;link rel=&amp;#34;shortcut icon&amp;#34; href=&amp;#34;/favicon.ico&amp;#34; type=&amp;#34;image/x-icon&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;fieldset style=&amp;#34;width: 585px;&amp;#34;&amp;gt; &amp;lt;legend&amp;gt; PRINT HTML TEST &amp;lt;/legend&amp;gt; &amp;lt;div id=&amp;#34;printHtml&amp;#34;&amp;gt; &amp;lt;table border=&amp;#34;1&amp;#34;&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;PC&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;移动&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;标题(颜色)&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;链接&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;√&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;√&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Vue列表渲染-变异方法 - 写代码的兔子&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;https://tsingloong.</description>
+    </item>
+    
+    <item>
+      <title>产品价格</title>
+      <link>/pricing/</link>
+      <pubDate>Tue, 05 Feb 2019 07:51:49 +0100</pubDate>
+      
+      <guid>/pricing/</guid>
+      <description>名言： 人与动物的最大区别是制造和使用工具.  </description>
+    </item>
+    
+  </channel>
+</rss>
