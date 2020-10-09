@@ -50,7 +50,7 @@
       <pubDate>Sat, 26 Sep 2020 07:51:49 +0100</pubDate>
       
       <guid>/docs/cloud-print-manual/</guid>
-      <description>参数列表 示例代码 测试网页   参数列表    参数名 取值范围 适用类型     paperSize A3, A4 所有   copies 1 ~ 100 所有    示例代码 &amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html lang=&amp;#34;zh-CN&amp;#34;&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;UTF-8&amp;#34; /&amp;gt; &amp;lt;title&amp;gt;Cloud Print Test Page&amp;lt;/title&amp;gt; &amp;lt;link rel=&amp;#34;shortcut icon&amp;#34; href=&amp;#34;/favicon.ico&amp;#34; type=&amp;#34;image/x-icon&amp;#34; /&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body&amp;gt; &amp;lt;fieldset style=&amp;#34;width: 585px;&amp;#34;&amp;gt; &amp;lt;legend&amp;gt; PRINT HTML TEST &amp;lt;/legend&amp;gt; &amp;lt;div id=&amp;#34;printHtml&amp;#34;&amp;gt; &amp;lt;table border=&amp;#34;1&amp;#34;&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;th&amp;gt;PC&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;移动&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;标题(颜色)&amp;lt;/th&amp;gt; &amp;lt;th&amp;gt;链接&amp;lt;/th&amp;gt; &amp;lt;/tr&amp;gt; &amp;lt;tr&amp;gt; &amp;lt;td&amp;gt;√&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;√&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;Vue列表渲染-变异方法 - 写代码的兔子&amp;lt;/td&amp;gt; &amp;lt;td&amp;gt;https://tsingloong.</description>
+      <description>参数列表 示例代码 测试网页   参数列表    参数名 取值范围 适用类型 描述     paperSize A3, A4 所有 纸张大小   copies 1 ~ 100 所有 打印份数   fileType IMAGE,PDF,TEXT 所有 文件类型   orientation PORTRAIT,LANDSCAPE 所有 打印方向   align LEFT,MIDDLE,RIGHT 所有 横向位置   valign TOP,MIDDLE,BOTTOM 所有 纵向位置   content 字符串 所有 打印内容   contentType BASE64,PLAIN,URL 所有 内容类型   scale 浮点数 IMAGE 缩放比例    示例代码 &amp;lt;!</description>
     </item>
     
     <item>
